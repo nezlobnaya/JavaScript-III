@@ -33,7 +33,7 @@ const person = {
     lastName: 'Doe',
     getFullName: function() {
         console.log(this);
-        return 'My full name is' + ' ' + `${this.firstName}` + ' ' + `${this.lastName}`;
+        return `My full name is ${this.firstName} ${this.lastName}`;
     }
 }
 console.log(person.getFullName());
