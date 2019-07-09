@@ -1,3 +1,4 @@
+'use strict'
 /* The for principles of "this";
 * in your own words. explain the four principle for the "this" keyword below.
 *
