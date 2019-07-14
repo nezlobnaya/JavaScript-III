@@ -1,0 +1,23 @@
+{
+  "name": "JavaScript-III",
+  "version": "1.0.0",
+  "description": "This challenge focuses on using the `this` keyword as well as getting comfortable with prototypes by building out a fantasy themed video game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch\"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nezlobnaya/JavaScript-III.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nezlobnaya/JavaScript-III/issues"
+  },
+  "homepage": "https://github.com/nezlobnaya/JavaScript-III#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
