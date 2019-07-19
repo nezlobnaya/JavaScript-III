@@ -69,3 +69,12 @@ console.log(`code example for Explicit Binding`);
 person1.speak.call(person2);
 person2.speak.apply(person1);
 
+const person3 = function(lang1, lang2){
+    console.log('Logged: ' + this.getFullName());
+}.bind(person);
+person3();
+
+// const bindMethod = person3.bind(person);
+// bindMethod();
+
+console.log('------------------------------');
